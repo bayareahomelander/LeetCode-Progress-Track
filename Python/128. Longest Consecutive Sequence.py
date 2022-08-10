@@ -14,7 +14,9 @@ class Solution:
         
         return longestSeq
 
+'''
 Time: O(n)
-  -> Straightforward solution would be O(nlogn) because of sorting algorithms runtime. 
+    -> Straightforward solution would be O(nlogn) because of sorting algorithms runtime. 
 
-Space: O(n)
+# Space: O(n)
+'''
