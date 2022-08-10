@@ -9,5 +9,7 @@ class Solution:
         
         return temp == temp[::-1]
 
-# Time Complexity: O(n)
-# Space Complexity: O(n)
+'''
+Time Complexity: O(n)
+Space Complexity: O(n)
+'''
