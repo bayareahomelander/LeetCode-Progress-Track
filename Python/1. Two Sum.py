@@ -10,5 +10,7 @@ class Solution:
                 return [record[diff], i]
             record[n] = i
 
-# Time: O(n)
-# Space: O(n)
+'''
+Time: O(n)
+Space: O(n)
+'''
