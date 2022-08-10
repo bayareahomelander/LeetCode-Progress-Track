@@ -9,6 +9,7 @@ class Solution:
         
         return False # Would reach this line if never found a duplicate after iterating.
 
+'''
 Time: O(n)
   -> Brute Force: .count() on each and every element and it'd be O(n^2)
   -> Sorting and checking: O(nlogn)
@@ -17,3 +18,4 @@ Space: O(n)
   -> Brute Force: O(1)
   -> Sorting: O(1)
   Both operate within the original array.
+'''
