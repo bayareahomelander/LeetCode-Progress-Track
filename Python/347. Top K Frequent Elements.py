@@ -15,6 +15,8 @@ class Solution:
         # Creating a sorted array in descending order based on values, return the first K elements using Slicing.
         return sorted(record, key = record.get, reverse = True)[:k]
 
+'''
 Time: O(nlogn)
   -> For loop runtime: O(n) ignored since nlogn is greater than n.
 Space: O(n)
+'''
