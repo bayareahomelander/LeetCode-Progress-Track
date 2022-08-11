@@ -5,7 +5,7 @@ class Solution:
         
         for i in s:
             while i in record:
-                record.pop(0) # If a letter is already in the array, remove the leftmost character.
+                record.pop(0) # If a letter is already in the array, remove the leftmost character until no duplicates.
              
             record.append(i) # Else simply add the character.
             output = max(output, len(record)) # Constantly update the maximum value
