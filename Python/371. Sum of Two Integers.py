@@ -3,6 +3,6 @@ class Solution:
         return sum([a,b]) #...Medium question?
 
 '''
-Time: O(n)
+Time: O(1) (?) since it's always two integers and the length of list is not arbitrary.
 Space: O(n)
 '''
