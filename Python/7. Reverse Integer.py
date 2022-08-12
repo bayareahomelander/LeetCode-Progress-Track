@@ -26,10 +26,11 @@ Space: O(1)
     def reverse(self, x: int) -> int: # Math approach
         
         output = 0
+        negative = False # Set to False by default. Will be used to check for negative/positive later.
         
         while x != 0:
           if x < 0:
-            x *= -1
+            negative = True
           
           temp = x % 10
           output = output * 10 + temp
