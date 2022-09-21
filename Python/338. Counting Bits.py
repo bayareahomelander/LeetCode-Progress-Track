@@ -16,6 +16,6 @@ class Solution:
         return ones
 
 '''
-Time: O(nlogn)
+Time: O(n)
 Space: O(n)
 '''
