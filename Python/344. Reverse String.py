@@ -3,7 +3,12 @@ class Solution:
         """
         Do not return anything, modify s in-place instead.
         """
-        s.reverse()
+        l, r = 0, len(s)
+        
+        while l < r:
+            s[l], s[r] = s[r], s[l]
+            l += 1
+            r -= 1
         
 '''
 Time: O(n)
