@@ -20,6 +20,6 @@ class Solution:
                 return mid
               
 '''
-Time: O(n)
+Time: O(logn)
 Space: O(1)
 '''
